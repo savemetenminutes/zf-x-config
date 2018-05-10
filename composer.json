@@ -1,0 +1,22 @@
+{
+  "name": "savemetenminutes/zf-x-config",
+  "description": "extended classes for zend framework",
+  "license": "BSD 3-Clause License",
+  "type": "library",
+  "homepage": "https://github.com/savemetenminutes/zf-x-config",
+  "authors": [
+    {
+      "name": "M. Kirilov",
+      "email": "savemetenminutes@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "zendframework/zend-config": "3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smtm\\ZendExtended\\Config\\": "src/"
+    }
+  }
+}
