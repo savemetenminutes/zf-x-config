@@ -1,6 +1,6 @@
 {
   "name": "savemetenminutes/zf-x-config",
-  "description": "extended classes for zend framework",
+  "description": "extended classes for zend framework (zend-config)",
   "license": "BSD 3-Clause License",
   "type": "library",
   "homepage": "https://github.com/savemetenminutes/zf-x-config",
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Smtm\\ZendExtended\\Config\\": "src/"
+      "Smtm\\Zfx\\Config\\": "src/"
     }
   }
 }
